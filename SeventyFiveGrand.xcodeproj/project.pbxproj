@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02073113294AFB2B003B1DAD /* Barcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02073112294AFB2B003B1DAD /* Barcode.swift */; };
+		021DBFF7294FF950007B592F /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021DBFF6294FF950007B592F /* WidgetKit.framework */; };
+		021DBFF9294FF950007B592F /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021DBFF8294FF950007B592F /* SwiftUI.framework */; };
+		021DBFFC294FF950007B592F /* HoursWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DBFFB294FF950007B592F /* HoursWidgetBundle.swift */; };
+		021DBFFE294FF950007B592F /* HoursWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DBFFD294FF950007B592F /* HoursWidget.swift */; };
+		021DC001294FF954007B592F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 021DC000294FF954007B592F /* Assets.xcassets */; };
+		021DC003294FF954007B592F /* HoursWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 021DBFFF294FF950007B592F /* HoursWidget.intentdefinition */; };
+		021DC004294FF954007B592F /* HoursWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 021DBFFF294FF950007B592F /* HoursWidget.intentdefinition */; };
+		021DC007294FF954007B592F /* HoursWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 021DBFF4294FF950007B592F /* HoursWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		021DC0142950364F007B592F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DC0132950364F007B592F /* NetworkManager.swift */; };
+		021DC0152950364F007B592F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DC0132950364F007B592F /* NetworkManager.swift */; };
+		021DC022295046B8007B592F /* HoursItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DC021295046B8007B592F /* HoursItem.swift */; };
+		021DC023295046B8007B592F /* HoursItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DC021295046B8007B592F /* HoursItem.swift */; };
+		021DC02529511F90007B592F /* Hours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DC02429511F90007B592F /* Hours.swift */; };
+		021DC02629511F90007B592F /* Hours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DC02429511F90007B592F /* Hours.swift */; };
+		021DC027295130C6007B592F /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024A12B5294AA003005DA4D9 /* Link.swift */; };
+		021DC02A29514CB8007B592F /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 021DC02929514CB8007B592F /* OrderedCollections */; };
+		021DC02C295183CF007B592F /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DC02B295183CF007B592F /* NotificationManager.swift */; };
+		024A12B2294A9A5E005DA4D9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024A12B1294A9A5E005DA4D9 /* HomeView.swift */; };
+		024A12B6294AA003005DA4D9 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024A12B5294AA003005DA4D9 /* Link.swift */; };
+		02977A41294BDA180086FE51 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02977A40294BDA180086FE51 /* CalendarView.swift */; };
+		02977A44294BDD510086FE51 /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = 02977A43294BDD510086FE51 /* FeedKit */; };
+		02977A46294BE6500086FE51 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02977A45294BE6500086FE51 /* WebView.swift */; };
+		02E51CAE2949CDF700516F3B /* SeventyFiveGrandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E51CAD2949CDF700516F3B /* SeventyFiveGrandApp.swift */; };
+		02E51CB02949CDF700516F3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E51CAF2949CDF700516F3B /* ContentView.swift */; };
+		02E51CB22949CDF900516F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E51CB12949CDF900516F3B /* Assets.xcassets */; };
+		02E51CB52949CDF900516F3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E51CB42949CDF900516F3B /* Preview Assets.xcassets */; };
+		02E51CB72949CDF900516F3B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E51CB62949CDF900516F3B /* Persistence.swift */; };
+		02E51CBA2949CDF900516F3B /* SeventyFiveGrand.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02E51CB82949CDF900516F3B /* SeventyFiveGrand.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		021DC005294FF954007B592F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02E51CA22949CDF700516F3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 021DBFF3294FF950007B592F;
+			remoteInfo = HoursWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		021DC008294FF954007B592F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				021DC007294FF954007B592F /* HoursWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02073112294AFB2B003B1DAD /* Barcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barcode.swift; sourceTree = "<group>"; };
+		021DBFF4294FF950007B592F /* HoursWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HoursWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		021DBFF6294FF950007B592F /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		021DBFF8294FF950007B592F /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		021DBFFB294FF950007B592F /* HoursWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursWidgetBundle.swift; sourceTree = "<group>"; };
+		021DBFFD294FF950007B592F /* HoursWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursWidget.swift; sourceTree = "<group>"; };
+		021DBFFF294FF950007B592F /* HoursWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = HoursWidget.intentdefinition; sourceTree = "<group>"; };
+		021DC000294FF954007B592F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		021DC002294FF954007B592F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		021DC00C29500512007B592F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		021DC0132950364F007B592F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		021DC021295046B8007B592F /* HoursItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursItem.swift; sourceTree = "<group>"; };
+		021DC02429511F90007B592F /* Hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hours.swift; sourceTree = "<group>"; };
+		021DC02B295183CF007B592F /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		024A12B1294A9A5E005DA4D9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		024A12B5294AA003005DA4D9 /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		02977A40294BDA180086FE51 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		02977A45294BE6500086FE51 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = SeventyFiveGrand/Views/WebView.swift; sourceTree = SOURCE_ROOT; };
+		02E51CAA2949CDF700516F3B /* SeventyFiveGrand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeventyFiveGrand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E51CAD2949CDF700516F3B /* SeventyFiveGrandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventyFiveGrandApp.swift; sourceTree = "<group>"; };
+		02E51CAF2949CDF700516F3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02E51CB12949CDF900516F3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02E51CB42949CDF900516F3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02E51CB62949CDF900516F3B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		02E51CB92949CDF900516F3B /* SeventyFiveGrand.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeventyFiveGrand.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		021DBFF1294FF950007B592F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021DBFF9294FF950007B592F /* SwiftUI.framework in Frameworks */,
+				021DBFF7294FF950007B592F /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E51CA72949CDF700516F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021DC02A29514CB8007B592F /* OrderedCollections in Frameworks */,
+				02977A44294BDD510086FE51 /* FeedKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02073111294AFB1C003B1DAD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				02977A45294BE6500086FE51 /* WebView.swift */,
+				02073112294AFB2B003B1DAD /* Barcode.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		021DBFF5294FF950007B592F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				021DBFF6294FF950007B592F /* WidgetKit.framework */,
+				021DBFF8294FF950007B592F /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		021DBFFA294FF950007B592F /* HoursWidget */ = {
+			isa = PBXGroup;
+			children = (
+				021DBFFB294FF950007B592F /* HoursWidgetBundle.swift */,
+				021DBFFD294FF950007B592F /* HoursWidget.swift */,
+				021DBFFF294FF950007B592F /* HoursWidget.intentdefinition */,
+				021DC000294FF954007B592F /* Assets.xcassets */,
+				021DC002294FF954007B592F /* Info.plist */,
+			);
+			path = HoursWidget;
+			sourceTree = "<group>";
+		};
+		021DC01929504519007B592F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				021DC021295046B8007B592F /* HoursItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		024A12B3294A9FDF005DA4D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				021DC01929504519007B592F /* Components */,
+				02073111294AFB1C003B1DAD /* Helpers */,
+				024A12B1294A9A5E005DA4D9 /* HomeView.swift */,
+				02977A40294BDA180086FE51 /* CalendarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		024A12B4294A9FE9005DA4D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				024A12B5294AA003005DA4D9 /* Link.swift */,
+				021DC02429511F90007B592F /* Hours.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		02E51CA12949CDF700516F3B = {
+			isa = PBXGroup;
+			children = (
+				02E51CAC2949CDF700516F3B /* SeventyFiveGrand */,
+				021DBFFA294FF950007B592F /* HoursWidget */,
+				021DBFF5294FF950007B592F /* Frameworks */,
+				02E51CAB2949CDF700516F3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02E51CAB2949CDF700516F3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02E51CAA2949CDF700516F3B /* SeventyFiveGrand.app */,
+				021DBFF4294FF950007B592F /* HoursWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02E51CAC2949CDF700516F3B /* SeventyFiveGrand */ = {
+			isa = PBXGroup;
+			children = (
+				021DC00C29500512007B592F /* Info.plist */,
+				024A12B4294A9FE9005DA4D9 /* Models */,
+				02E51CAD2949CDF700516F3B /* SeventyFiveGrandApp.swift */,
+				02E51CAF2949CDF700516F3B /* ContentView.swift */,
+				024A12B3294A9FDF005DA4D9 /* Views */,
+				02E51CB12949CDF900516F3B /* Assets.xcassets */,
+				02E51CB62949CDF900516F3B /* Persistence.swift */,
+				02E51CB82949CDF900516F3B /* SeventyFiveGrand.xcdatamodeld */,
+				02E51CB32949CDF900516F3B /* Preview Content */,
+				021DC0132950364F007B592F /* NetworkManager.swift */,
+				021DC02B295183CF007B592F /* NotificationManager.swift */,
+			);
+			path = SeventyFiveGrand;
+			sourceTree = "<group>";
+		};
+		02E51CB32949CDF900516F3B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02E51CB42949CDF900516F3B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		021DBFF3294FF950007B592F /* HoursWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 021DC00B294FF954007B592F /* Build configuration list for PBXNativeTarget "HoursWidgetExtension" */;
+			buildPhases = (
+				021DBFF0294FF950007B592F /* Sources */,
+				021DBFF1294FF950007B592F /* Frameworks */,
+				021DBFF2294FF950007B592F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoursWidgetExtension;
+			productName = HoursWidgetExtension;
+			productReference = 021DBFF4294FF950007B592F /* HoursWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		02E51CA92949CDF700516F3B /* SeventyFiveGrand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E51CBD2949CDF900516F3B /* Build configuration list for PBXNativeTarget "SeventyFiveGrand" */;
+			buildPhases = (
+				02E51CA62949CDF700516F3B /* Sources */,
+				02E51CA72949CDF700516F3B /* Frameworks */,
+				02E51CA82949CDF700516F3B /* Resources */,
+				021DC008294FF954007B592F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				021DC006294FF954007B592F /* PBXTargetDependency */,
+			);
+			name = SeventyFiveGrand;
+			packageProductDependencies = (
+				02977A43294BDD510086FE51 /* FeedKit */,
+				021DC02929514CB8007B592F /* OrderedCollections */,
+			);
+			productName = SeventyFiveGrand;
+			productReference = 02E51CAA2949CDF700516F3B /* SeventyFiveGrand.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02E51CA22949CDF700516F3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					021DBFF3294FF950007B592F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					02E51CA92949CDF700516F3B = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 02E51CA52949CDF700516F3B /* Build configuration list for PBXProject "SeventyFiveGrand" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02E51CA12949CDF700516F3B;
+			packageReferences = (
+				02977A42294BDD510086FE51 /* XCRemoteSwiftPackageReference "FeedKit" */,
+				021DC02829514CB8007B592F /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
+			productRefGroup = 02E51CAB2949CDF700516F3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02E51CA92949CDF700516F3B /* SeventyFiveGrand */,
+				021DBFF3294FF950007B592F /* HoursWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		021DBFF2294FF950007B592F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021DC001294FF954007B592F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E51CA82949CDF700516F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E51CB52949CDF900516F3B /* Preview Assets.xcassets in Resources */,
+				02E51CB22949CDF900516F3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		021DBFF0294FF950007B592F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021DC0152950364F007B592F /* NetworkManager.swift in Sources */,
+				021DC027295130C6007B592F /* Link.swift in Sources */,
+				021DC023295046B8007B592F /* HoursItem.swift in Sources */,
+				021DBFFC294FF950007B592F /* HoursWidgetBundle.swift in Sources */,
+				021DC02629511F90007B592F /* Hours.swift in Sources */,
+				021DC003294FF954007B592F /* HoursWidget.intentdefinition in Sources */,
+				021DBFFE294FF950007B592F /* HoursWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E51CA62949CDF700516F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02073113294AFB2B003B1DAD /* Barcode.swift in Sources */,
+				021DC02529511F90007B592F /* Hours.swift in Sources */,
+				02E51CB72949CDF900516F3B /* Persistence.swift in Sources */,
+				021DC0142950364F007B592F /* NetworkManager.swift in Sources */,
+				021DC02C295183CF007B592F /* NotificationManager.swift in Sources */,
+				02977A41294BDA180086FE51 /* CalendarView.swift in Sources */,
+				024A12B6294AA003005DA4D9 /* Link.swift in Sources */,
+				021DC004294FF954007B592F /* HoursWidget.intentdefinition in Sources */,
+				02E51CBA2949CDF900516F3B /* SeventyFiveGrand.xcdatamodeld in Sources */,
+				021DC022295046B8007B592F /* HoursItem.swift in Sources */,
+				02E51CB02949CDF700516F3B /* ContentView.swift in Sources */,
+				02977A46294BE6500086FE51 /* WebView.swift in Sources */,
+				024A12B2294A9A5E005DA4D9 /* HomeView.swift in Sources */,
+				02E51CAE2949CDF700516F3B /* SeventyFiveGrandApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		021DC006294FF954007B592F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 021DBFF3294FF950007B592F /* HoursWidgetExtension */;
+			targetProxy = 021DC005294FF954007B592F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		021DC009294FF954007B592F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W5723276VB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HoursWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HoursWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zone.jero.SeventyFiveGrand.HoursWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		021DC00A294FF954007B592F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W5723276VB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HoursWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HoursWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zone.jero.SeventyFiveGrand.HoursWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02E51CBB2949CDF900516F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02E51CBC2949CDF900516F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02E51CBE2949CDF900516F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SeventyFiveGrand/Preview Content\"";
+				DEVELOPMENT_TEAM = W5723276VB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeventyFiveGrand/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = 75grand;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zone.jero.SeventyFiveGrand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		02E51CBF2949CDF900516F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SeventyFiveGrand/Preview Content\"";
+				DEVELOPMENT_TEAM = W5723276VB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeventyFiveGrand/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = 75grand;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zone.jero.SeventyFiveGrand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		021DC00B294FF954007B592F /* Build configuration list for PBXNativeTarget "HoursWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021DC009294FF954007B592F /* Debug */,
+				021DC00A294FF954007B592F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E51CA52949CDF700516F3B /* Build configuration list for PBXProject "SeventyFiveGrand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E51CBB2949CDF900516F3B /* Debug */,
+				02E51CBC2949CDF900516F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E51CBD2949CDF900516F3B /* Build configuration list for PBXNativeTarget "SeventyFiveGrand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E51CBE2949CDF900516F3B /* Debug */,
+				02E51CBF2949CDF900516F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		021DC02829514CB8007B592F /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		02977A42294BDD510086FE51 /* XCRemoteSwiftPackageReference "FeedKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nmdias/FeedKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		021DC02929514CB8007B592F /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 021DC02829514CB8007B592F /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+		02977A43294BDD510086FE51 /* FeedKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02977A42294BDD510086FE51 /* XCRemoteSwiftPackageReference "FeedKit" */;
+			productName = FeedKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		02E51CB82949CDF900516F3B /* SeventyFiveGrand.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02E51CB92949CDF900516F3B /* SeventyFiveGrand.xcdatamodel */,
+			);
+			currentVersion = 02E51CB92949CDF900516F3B /* SeventyFiveGrand.xcdatamodel */;
+			path = SeventyFiveGrand.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02E51CA22949CDF700516F3B /* Project object */;
+}
